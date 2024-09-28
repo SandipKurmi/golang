@@ -7,8 +7,10 @@ const name = "sandip"
 func main(){
 	const name = "sandip"
 	const age = 30
+	
 	// age=24 //we can not assign 
-	// name = "akash"//we can not assign 
+	// name = "uday" //we can not assign 
+
 	fmt.Println(age)
 	fmt.Println(name)
 
@@ -19,6 +21,4 @@ func main(){
 
 	fmt.Println(port)
 	fmt.Println(host)
-
-
 }

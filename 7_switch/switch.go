@@ -5,9 +5,8 @@ import (
 	"time"
 )
 
-
 func main(){
-	i := 7
+	i := 2
 
 	switch i {
 	case 1:
@@ -25,8 +24,6 @@ func main(){
 	}
 
 	//multiple condition switch
-	
-
 	switch time.Now().Weekday() {
 	case time.Saturday, time.Sunday:
 		fmt.Println("it's weekend")
@@ -50,5 +47,6 @@ func main(){
 	}
 
 	whoAmI(false)
-
+	whoAmI("Sandip")
+	whoAmI(07)
 }

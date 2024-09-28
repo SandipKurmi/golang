@@ -2,11 +2,18 @@ package main
 
 import "fmt"
 
-
 func main(){
+
+	// int
 	fmt.Println(1 + 2)
-	fmt.Println("go lang")
+
+	// string
+	fmt.Println("Hello Golang")
+
+	// bool
 	fmt.Println(true)
 	fmt.Println(false)
-	fmt.Print(10.5 / 2)
+
+	// floats
+	fmt.Print(10.5)
 }

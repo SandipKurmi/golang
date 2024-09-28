@@ -2,16 +2,17 @@ package main
 
 import "fmt"
 
-
 func main(){
 	age:=22
 
-	// if age >= 18 {
-	// 	fmt.Println("Person is an adult")
-	// } else {
-	// 	fmt.Println("is not an adult")
-	// }
+	//ex 1
+	if age >= 18 {
+		fmt.Println("Person is an adult")
+	} else {
+		fmt.Println("is not an adult")
+	}
 
+	//ex 2
 	if age >= 18 {
 		fmt.Println("Person is an adult")
 	} else if age >= 12 {
@@ -22,13 +23,11 @@ func main(){
 
 
 	var role = "admin"
-
 	var hasPermission = false
 
 	if role == "admin" && hasPermission {
 		fmt.Println("Yes")
-	}
-
+	} 
 
 	//we can declare a variable inside if construct.
 	if age:=10 ; age >= 18 {
@@ -39,6 +38,6 @@ func main(){
 		fmt.Println("Person is kid", age)
 	}
 
-// go does not have ternary, you will hvae to use normal if else
+  // go does not have ternary, you will hvae to use normal if else
 
 }
